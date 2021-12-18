@@ -1,0 +1,54 @@
+form {
+    width: 60%;
+    min-width: 700px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color:skyblue;
+    border-radius: 15px;
+    h1 {
+        text-align: center;
+        color: rgb(82, 44, 44);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    label {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        line-height: 30px;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        .allInptForm {
+            height: 30px;
+            width: 70%;
+            padding-left: 10px;
+            border-radius: 10px;
+            border: 1px solid silver;
+        }
+    }
+    span {
+        color: red;
+        display: block;
+        position: absolute;
+        margin-top: -30px;
+        margin-left: 22%;
+    }
+    .form-btn {
+        width: 55%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        button {
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+            border: 1px solid rgb(160, 159, 159);
+            background-color:rgb(216, 243, 167);
+        }
+    }
+    
+}
